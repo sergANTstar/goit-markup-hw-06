@@ -362,6 +362,13 @@ textarea {
     color: var(--accent-color);
 }
 
+.form-field:hover ~ a,
+.form-field:focus ~ a {
+    fill: var(--accent-color);
+    
+}
+
+
 
 .form-field textarea {
     outline: 1px solid rgba(33, 33, 33, 0.2);
