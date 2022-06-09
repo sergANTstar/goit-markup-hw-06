@@ -415,10 +415,9 @@ textarea {
 
 .icon-order-box{
     position: absolute;
-    transform: translateY(50%);
-    color: var(--main-text-color);
+    transform: translateY(calc(50% + height));
     margin-left: 14px;
-    fill: #2196F3;
+    fill:var(--main-text-color);
     z-index: 3;
 }
 
