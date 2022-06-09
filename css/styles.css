@@ -416,18 +416,15 @@ textarea {
     position: absolute;
     transform: translateY(50%);
     color: var(--main-text-color);
-   margin-left: 14px;
-    fill: var(--main-text-color);
+    margin-left: 14px;
     z-index: 3;
 }
-
 
 .button-submit-main {
     display: flex;
     justify-content: center;
     cursor: pointer;
     
-
 }
 .button-submit {
     width: 200px;
