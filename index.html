@@ -62,26 +62,36 @@
                     <button type="button" class="order-button" data-modal-open>Замовити послугу</button>
                     <div class="backdrop is-hidden" data-modal>
                         <div class="modal">
-                            <p>Залиште свої дані і ми вам зателефонуємо</p>
-                            <form class="js-speaker-form">
-                                <label for="name">Ім'я</label>
-                                <input type="text" name="name" id="name"/>
-
-                                <label for="tel">Телефон</label>
-                                <input type="tel" name="tel" id="tel" autofocus  />
-
-                                <label for="mail">Пошта</label>
-                                <input type="mail" name="mail" id="mail" />
-
-                                <label for="comments">Коментарі</label>
-                                <textarea name="comments" id="comments" cols="50" rows="7" placeholder="Введіть повідомлення"></textarea>
-
-                                <label for="consent">Погоджуюсь із розсилкою та приймаю <span href="https://goit.ua/agreement/">Умови договору</span></label>
-                                <input type="checkbox" id="consent" name="consent"/>
-
-
-                            </form>
-                            <button type="submit" data-modal-close>Відправити</button>
+                            <div class="form">
+                                <p class="form-headline">Залиште свої дані і ми вам зателефонуємо</p>
+                                <form class="js-speaker-form">
+                                    <div class="form-field">
+                                        <label for="name">Ім'я</label>
+                                        <input type="text" name="name" id="name"/>
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="tel">Телефон</label>
+                                        <input type="tel" name="tel" id="tel" autofocus  />
+                                    </div>
+                                    <div class="form-field">
+                                        <label for="mail">Пошта</label>
+                                        <input type="email" name="mail" id="mail" />
+                                    </div class="form-field">
+                                    <div class="form-field">
+                                        <label for="comments">Коментарі</label>
+                                        <textarea class="comments"  name="comments" id="comments" placeholder="Введіть повідомлення"></textarea>
+                                    </div>
+                                    <div class="form-field">
+                                        <div class="consent-taxt consent-stail">
+                                            <input type="checkbox" id="consent" name="consent"/>
+                                            <label for="consent">Погоджуюсь із розсилкою та приймаю <span href="https://goit.ua/agreement/">Умови договору</span></label>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="button-submit-main">
+                                     <button type="submit" class="button-submit" data-modal-close>Відправити</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

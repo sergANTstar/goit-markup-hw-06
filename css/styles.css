@@ -277,12 +277,156 @@ textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    padding: 0;
 
     height: 581px;
     width: 528px;
-    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12); ;
 
     background-color: var(--backround-color);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size:12px ;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+    
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    
+    color: var(--second-text-color);       
+}
+
+.form-field:last-child {
+      margin-top: 20px;
+    
+    color: var(--second-text-color);       
+}
+
+.form-field label {
+    margin-bottom: 4px;
+}
+
+.form-field:last-child label {
+    margin-bottom: 0px;
+}
+
+.js-speaker-form {
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+
+.form-field input {
+    outline: 1px solid rgba(33, 33, 33, 0.2);
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 14px;
+    color: var(--main-text-color);
+    cursor: pointer;
+
+
+    transition-property: outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
+
+
+}
+
+.form-field:hover input,
+ .form-field:hover textarea,
+  .form-field:focus input,
+   .form-field:focus textarea {
+    outline: 1px solid var(--accent-color);
+}
+
+.form-field textarea {
+    outline: 1px solid rgba(33, 33, 33, 0.2);
+    border: none;
+    border-radius: 4px;
+    color: var(--main-text-color);
+    height: 120px;
+    cursor: pointer;
+    
+
+    transition-property: outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 250ms;
+}
+
+.form-field textarea::placeholder {
+    color: rgba(117, 117, 117, 0.5);    
+}
+
+.comments {
+    padding: 12px 16px;
+}
+
+.form-headline {
+   color: var(--main-text-color);
+    font-weight: 700;
+    font-size:20px ;
+    letter-spacing: 0.03em;
+    text-align: center;
+} 
+
+.consent-text {
+    margin-top: 20px;
+    font-size:14px ;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+
+}
+
+.consent-stail input[type="checkbox"] {
+    width: 16px;
+    height: 15px;
+    border-radius: 2px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.button-submit-main {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.button-submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    color: var(--backround-color);
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size:16px ;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-align: center;
+
 }
 
 
