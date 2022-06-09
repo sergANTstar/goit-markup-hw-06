@@ -423,8 +423,8 @@ textarea {
     position: absolute;
     transform: translateY(63%);
     margin-left: 14px;
+    cursor: pointer;
     fill:var(--main-text-color);
-    
 }
 
 .button-submit-main {
