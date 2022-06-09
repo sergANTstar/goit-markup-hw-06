@@ -354,11 +354,14 @@ textarea {
 }
 
 .form-field:hover input,
- .form-field:hover textarea,
-  .form-field:focus input,
-   .form-field:focus textarea {
+.form-field:hover textarea,
+.form-field:focus input,
+.form-field:focus textarea {
     outline: 1px solid var(--accent-color);
+    fill: var(--accent-color);
 }
+
+.icon-order-box
 
 .form-field textarea {
     outline: 1px solid rgba(33, 33, 33, 0.2);
