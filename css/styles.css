@@ -412,22 +412,13 @@ textarea {
     
 }
 
-.form-headline .icon-order-box{
+.icon-order-box{
     position: absolute;
     transform: translateY(50%);
     color: var(--main-text-color);
-    margin: 13.5px 14.5px 13.5px 14.5px;
+   margin-left: 14px;
     fill: var(--main-text-color);
     z-index: 3;
-}
-
-.form-headline .icon-order-box:first-child{
-    margin: 14px 15px 14px 15px;
-}
-
-.form-headline .icon-order-box:last-child{
-    margin: 14px 13.5px 14px 13.5px;
-}
 
 .button-submit-main {
     display: flex;
