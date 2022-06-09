@@ -359,6 +359,7 @@ textarea {
 .form-field:focus textarea {
     outline: 1px solid var(--accent-color);
     fill: var(--accent-color);
+    color: var(--accent-color);
 }
 
 
@@ -417,6 +418,7 @@ textarea {
     transform: translateY(50%);
     color: var(--main-text-color);
     margin-left: 14px;
+    fill: #2196F3;
     z-index: 3;
 }
 
