@@ -432,6 +432,10 @@ textarea {
     transition-delay: 250ms;
 }
 
+.lable {
+    display: inline-block;
+}
+
 .checkbox:checked + .icon-checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
