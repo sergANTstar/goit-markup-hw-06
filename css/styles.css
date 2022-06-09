@@ -432,10 +432,11 @@ textarea {
     transition-delay: 250ms;
 }
 
-.checkbox:checked {
+.checkbox:checked + .icon-checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
-     appearance: none;
+    appearance: none;
+    fill: var(--accent-color);
 }
 
 
