@@ -419,6 +419,8 @@ textarea {
    margin-left: 14px;
     fill: var(--main-text-color);
     z-index: 3;
+}
+
 
 .button-submit-main {
     display: flex;
