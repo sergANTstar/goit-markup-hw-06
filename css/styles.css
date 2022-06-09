@@ -415,6 +415,7 @@ textarea {
     transform: translateY(50%);
     color: var(--main-text-color);
     margin: 13.5px 14.5px 13.5px 14.5px;
+    fill: var(--main-text-color);
 }
 
 .icon-order-box:first-child{
