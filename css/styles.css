@@ -413,7 +413,7 @@ textarea {
     
 }
 
-.icon-order-box{
+.form-headline .icon-order-box{
     position: absolute;
     transform: translateY(50%);
     color: var(--main-text-color);
@@ -421,11 +421,11 @@ textarea {
     fill: var(--main-text-color);
 }
 
-.icon-order-box:first-child{
+.form-headline .icon-order-box:first-child{
     margin: 14px 15px 14px 15px;
 }
 
-.icon-order-box:last-child{
+.form-headline .icon-order-box:last-child{
     margin: 14px 13.5px 14px 13.5px;
 }
 
