@@ -421,8 +421,8 @@ textarea {
 
 .icon-order-box{
     position: absolute;
-    transform: translateY(63%);
-    margin-left: 14px;
+    transform: translateY(68%);
+    margin-left: 12px;
     cursor: pointer;
     fill:var(--main-text-color);
 
