@@ -361,7 +361,6 @@ textarea {
     fill: var(--accent-color);
 }
 
-.icon-order-box
 
 .form-field textarea {
     outline: 1px solid rgba(33, 33, 33, 0.2);
@@ -419,6 +418,7 @@ textarea {
     color: var(--main-text-color);
     margin: 13.5px 14.5px 13.5px 14.5px;
     fill: var(--main-text-color);
+    z-index: 3;
 }
 
 .form-headline .icon-order-box:first-child{
