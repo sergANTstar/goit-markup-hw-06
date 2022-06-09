@@ -432,6 +432,11 @@ textarea {
     transition-delay: 250ms;
 }
 
+.checkbox:checked {
+    appearance: none;
+}
+
+
 .button-submit-main {
     display: flex;
     justify-content: center;
