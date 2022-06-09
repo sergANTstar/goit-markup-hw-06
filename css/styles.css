@@ -333,7 +333,7 @@ textarea {
 }
 
 
-.form-field input {
+.form-field:not(:last-child) input {
     padding-left: 42px;
     outline: 1px solid rgba(33, 33, 33, 0.2);
     border: none;
@@ -349,13 +349,11 @@ textarea {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 250ms;
-
-
 }
 
-.form-field:hover input,
+.form-field:hover:not(:last-child) input,
 .form-field:hover textarea,
-.form-field:focus input,
+.form-field:focus:not(:last-child) input,
 .form-field:focus textarea {
     outline: 1px solid var(--accent-color);
     fill: var(--accent-color);
@@ -367,8 +365,6 @@ textarea {
     fill: var(--accent-color);
     
 }
-
-
 
 .form-field textarea {
     outline: 1px solid rgba(33, 33, 33, 0.2);
@@ -413,6 +409,14 @@ textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+
+.icon-checkbox {
+    width: 16px;
+    height: 15px;
+    border: var(--main-text-color);
+    border-radius: 1px;
+    fill: none;
 }
 
 .icon-order-box{
