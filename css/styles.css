@@ -441,21 +441,16 @@ textarea {
     cursor: pointer;
 }
 
-.consent-stail input[type="checkbox"] {
+/*.consent-stail input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}
+}*/
 
-.checkbox {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
 
-.checkbox:checked + .icon-checkbox {
+
+.checkbox:checked + .icon-check {
     fill: var(--accent-color);
-
 }
 
 .icon-checkbox {
@@ -469,6 +464,7 @@ textarea {
 
 .icon-check{
    background-size: contain;
+   fill: none;
    
 }
 
