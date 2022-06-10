@@ -475,22 +475,28 @@ textarea {
     transition-delay: 250ms;
 }
 
+.icon-close:focus, .icon-close:hover {
+    fill: var(--accent-color);
+}
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
+    outline: none;
     
 }
 
 .icon-checkbox {
+    width: 15px;
+    height: 15px;
     fill: none;
     margin-left: 12px;
     margin-right: 8px;
     padding: 0;
-    border: 2px solid var(--main-text-color);
+    outline: 2px solid var(--main-text-color);
     border-radius: 2px;
     background-origin: padding-box;
 
-    transition-property:  fill;
+    transition-property:  fill, outline;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 250ms;
