@@ -454,6 +454,10 @@ textarea {
 }
 
 .close-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top:8px;
     right: 8px;
@@ -468,14 +472,8 @@ textarea {
 }
 
 .icon-close {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     fill: var(--main-text-color);
     background-size: contain;
-    padding: 0;
-    margin: 0;
 
     transition-property:  fill;
     transition-duration: 250ms;
