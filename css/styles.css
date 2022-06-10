@@ -486,6 +486,7 @@ textarea {
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
+    background-size: contain;
     
     
 }
