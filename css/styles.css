@@ -389,6 +389,7 @@ textarea {
 .consent-stail {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .form-headline {
     color: var(--main-text-color);
@@ -397,30 +398,6 @@ textarea {
     letter-spacing: 0.03em;
     text-align: center;
 } 
-
-.consent-text {
-    margin-top: 20px;
-    font-size:14px ;
-    letter-spacing: 0.03em;
-    color: var(--second-text-color);
-
-}
-
-/*.consent-stail input[type="checkbox"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}*/
-
-.icon-checkbox {
-    display: flex;
-    fill: none;
-    width: 15px;
-    height: 15px;
-    margin-left: 12px;
-    margin-right: 8px;
-}
-
 
 .agreement {
     font-size: 14px;
@@ -434,13 +411,6 @@ textarea {
     color: var(--main-text-color);
 }
 
-.lable-chack {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    
-}
 
 .check-agreement {
     color: var(--accent-color);
@@ -464,17 +434,40 @@ textarea {
     transition-delay: 250ms;
 }
 
+.lable-chack {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.consent-stail input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 .checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
-.checkbox:checked + .icon-checkbox {
+.checkbox:checked + .icon-check {
     fill: var(--accent-color);
     color: #2196F3;
-    
+
 }
+
+.icon-checkbox {
+    display: flex;
+    fill: none;
+    width: 15px;
+    height: 15px;
+    margin-left: 12px;
+    margin-right: 8px;
+}
+
 .icon-check{
    background-size: contain;
    fill: var(--accent-color);
