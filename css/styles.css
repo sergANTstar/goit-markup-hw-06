@@ -148,9 +148,6 @@ body{
 .site-nav-item:not(:last-child) {
     margin-right: 30px;
 }
-.site-nav-item:first-child {
-    
-}
 
 
 .site-nav-item{
@@ -362,7 +359,6 @@ textarea {
 .form-field:hover input ~ a,
 .form-field:focus input ~ a {
     fill: var(--accent-color);
-    
 }
 
 .form-field textarea {
@@ -438,14 +434,20 @@ textarea {
 
 .lable-chack {
     display: flex;
+    flex-wrap:wrap ;
     align-items: center;
     justify-content: center;
-    transform: translateY(50%);
+    top: 2px;
+    left: 2px;
     cursor: pointer;
     
 }
 
 .check-agreement {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
     color: var(--accent-color);
     text-decoration: underline;
 }
@@ -466,6 +468,7 @@ textarea {
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
+    color: #2196F3;
 }
 
 
