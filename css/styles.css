@@ -437,7 +437,7 @@ textarea {
 .lable-chack {
     display: flex;
     align-items: center;
-    height: 16px;
+    height: 15px;
     
 }
 
@@ -462,8 +462,8 @@ textarea {
 
 
 .icon-checkbox {
-    width: 12px;
-    height: 12px;
+    width: 11px;
+    height: 11px;
     outline: 2px solid var(--main-text-color);
     border-radius: 1px;
 }
