@@ -457,10 +457,10 @@ textarea {
 }
 
 
-.icon-check {
+.icon-checkbox {
     width: 16px;
     height: 15px;
-    border: var(--main-text-color);
+    outline: 1px solid var(--main-text-color);
     border-radius: 1px;
 }
 
