@@ -469,6 +469,7 @@ textarea {
 
 .icon-close {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     fill: var(--main-text-color);
@@ -482,10 +483,12 @@ textarea {
 
 .icon-close:focus, .icon-close:hover {
     fill: var(--accent-color);
+    
 }
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
+    outline: 0px;
     background-size: contain;
     
     
