@@ -461,12 +461,7 @@ textarea {
 }
 
 
-.icon-checkbox {
-    width: 11px;
-    height: 11px;
-    outline: 2px solid var(--main-text-color);
-    border-radius: 1px;
-}
+
 
 .checkbox:checked + .icon-checkbox {
     -webkit-appearance: none;
