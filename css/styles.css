@@ -441,6 +441,9 @@ textarea {
 .check-agreement {
     color: var(--accent-color);
     text-decoration: underline;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 
@@ -461,7 +464,11 @@ textarea {
     fill: var(--accent-color);
     
 }
-
+.icon-check{
+    border: 2px solid var(--main-text-color);
+    border-radius: 2px;
+    background-origin: padding-box;
+}
 
 .button-submit-main {
     display: flex;
