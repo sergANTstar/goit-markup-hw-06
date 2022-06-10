@@ -455,13 +455,13 @@ textarea {
 
 .checkbox:checked + .icon-check {
     fill: var(--accent-color);
-    color: #2196F3;
+   
 
 }
 
 .icon-checkbox {
-    display: flex;
-    fill: none;
+    display: inline-block;
+    fill: var(--accent-color);
     width: 15px;
     height: 15px;
     margin-left: 12px;
@@ -470,7 +470,7 @@ textarea {
 
 .icon-check{
    background-size: contain;
-   fill: var(--accent-color);
+   
 }
 
 .icon-chec{
