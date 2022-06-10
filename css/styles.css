@@ -500,8 +500,6 @@ textarea {
     fill: none;
     margin-left: 12px;
     margin-right: 8px;
-    padding: 0;
-    margin: 0;
     outline: 2px solid var(--main-text-color);
     border-radius: 1px;
     background-origin: padding-box;
@@ -515,8 +513,9 @@ textarea {
 
 .icon-check{
     background-size: contain;
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+   
   
 }
 
