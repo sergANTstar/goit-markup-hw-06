@@ -404,6 +404,7 @@ textarea {
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin: 0;
+    margin-right: 9px;
 
 }
 
@@ -486,15 +487,13 @@ textarea {
     
 }
 
-.checkbox:checked + .icon-check {
+.checkbox:checked .icon-check {
     fill: var(--accent-color);
     outline: 0px;
     background-size: contain;
     
     
 }
-
-
 
 .icon-check{
     fill: none;
