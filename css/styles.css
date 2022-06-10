@@ -447,11 +447,11 @@ textarea {
     appearance: none;
 }*/
 
-.checkbox {
+/*.checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}
+}*/
 
 .checkbox:checked + .icon-check {
     fill: var(--accent-color);
