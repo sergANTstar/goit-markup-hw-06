@@ -461,11 +461,13 @@ textarea {
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    background-color: transparent
+    background-color: transparent;
+    background-size: contain;
 }
 
 .icon-close {
     fill: var(--main-text-color);
+    background-size: contain;
 
     transition-property:  fill;
     transition-duration: 250ms;
@@ -498,7 +500,7 @@ textarea {
     border: 2px solid var(--main-text-color);
     border-radius: 2px;
     background-origin: padding-box;
-    background-size: contain;
+    z-index: 3;
 }
 
 .button-submit-main {
