@@ -313,10 +313,8 @@ textarea {
     color: var(--second-text-color);       
 }
 
-.form-field:last-child {
-      margin-top: 20px;
-    
-    color: var(--second-text-color);       
+.form-field:first-child {
+    margin-top: 0px;    
 }
 
 .form-field label {
@@ -380,7 +378,7 @@ textarea {
 
 .form-field textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);    
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .comments {
