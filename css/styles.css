@@ -418,6 +418,8 @@ textarea {
     border-color: var(--main-text-color);
     border-radius: 1px;
     color: var(--main-text-color);
+    margin-left: 12px;
+    margin-right: 8px;
 }
 
 
