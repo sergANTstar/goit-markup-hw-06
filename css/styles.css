@@ -447,21 +447,19 @@ textarea {
     appearance: none;
 }*/
 
-.checkbox {
+/*.checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}
+}*/
 
-.checkbox:checked + .icon-check {
+.checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
     color: var(--accent-color);
 }
 
 .icon-checkbox {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
+   fill: none;
     margin-left: 12px;
     margin-right: 8px;
 }
