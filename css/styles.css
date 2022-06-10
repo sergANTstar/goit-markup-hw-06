@@ -385,6 +385,11 @@ textarea {
     padding: 12px 16px;
 }
 
+
+.consent-stail {
+    display: flex;
+    align-items: center;
+}
 .form-headline {
     color: var(--main-text-color);
     font-weight: 700;
@@ -401,11 +406,11 @@ textarea {
 
 }
 
-.consent-stail input[type="checkbox"] {
+/*.consent-stail input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}
+}*/
 
 .icon-checkbox {
     display: flex;
@@ -459,7 +464,11 @@ textarea {
     transition-delay: 250ms;
 }
 
-
+.checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
