@@ -476,8 +476,8 @@ textarea {
     
 }
 .icon-check{
-   
-    background-size: contain;
+   background-size: contain;
+   fill: var(--accent-color);
 }
 
 .icon-chec{
