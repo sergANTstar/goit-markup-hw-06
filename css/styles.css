@@ -362,7 +362,7 @@ textarea {
 .form-field:hover input ~ span,
 .form-field:focus input ~ span {
     fill: var(--accent-color);
-    color: var(--accent-color);
+    
     
 }
 
@@ -466,9 +466,7 @@ textarea {
 }
 
 .checkbox:checked + .icon-checkbox {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    fill: var(--accent-color);
 }
 
 
