@@ -408,13 +408,10 @@ textarea {
 }
 
 .icon-checkbox {
-    display: inline-block;
+    display: flex;
     fill: none;
     width: 15px;
     height: 15px;
-    border: 2px solid var(--main-text-color);
-    border-radius: 2px;
-    background-origin: padding-box;
     margin-left: 12px;
     margin-right: 8px;
 }
@@ -437,17 +434,11 @@ textarea {
     flex-wrap:wrap ;
     align-items: center;
     justify-content: center;
-    top: 2px;
-    left: 2px;
     cursor: pointer;
     
 }
 
 .check-agreement {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
     color: var(--accent-color);
     text-decoration: underline;
 }
@@ -470,7 +461,11 @@ textarea {
     fill: var(--accent-color);
     color: #2196F3;
 }
-
+.icon-check{
+    border: 2px solid var(--main-text-color);
+    border-radius: 2px;
+    background-origin: padding-box;
+}
 
 .button-submit-main {
     display: flex;
