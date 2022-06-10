@@ -459,13 +459,9 @@ textarea {
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
-    color: #2196F3;
+    
 }
-.icon-check{
-    border: 2px solid var(--main-text-color);
-    border-radius: 2px;
-    background-origin: padding-box;
-}
+
 
 .button-submit-main {
     display: flex;
