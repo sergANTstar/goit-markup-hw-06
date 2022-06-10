@@ -463,6 +463,8 @@ textarea {
     border-radius: 50%;
     background-color: transparent;
     background-size: contain;
+    padding: 0;
+    margin: 0;
 }
 
 .icon-close {
