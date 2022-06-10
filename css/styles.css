@@ -412,12 +412,25 @@ textarea {
 }
 
 .icon-checkbox {
+    display: inline-block;
     width: 16px;
     height: 15px;
-    border: var(--main-text-color);
-    border-radius: 1px;
     fill: none;
+    border: 1px;
+    border-radius: 1px;
+    color: var(--main-text-color);
 }
+
+.lable {
+    display: flex;
+    align-items: center;
+}
+
+.check-agreement {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
 
 .icon-order-box{
     position: absolute;
@@ -432,8 +445,12 @@ textarea {
     transition-delay: 250ms;
 }
 
-.lable {
-    display: inline-block;
+
+.icon-check {
+    width: 16px;
+    height: 15px;
+    border: var(--main-text-color);
+    border-radius: 1px;
 }
 
 .checkbox:checked + .icon-checkbox {
