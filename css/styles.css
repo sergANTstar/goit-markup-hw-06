@@ -495,6 +495,7 @@ textarea {
     outline: 2px solid var(--main-text-color);
     border-radius: 2px;
     background-origin: padding-box;
+    background-size: contain;
 
     transition-property:  fill, outline;
     transition-duration: 250ms;
