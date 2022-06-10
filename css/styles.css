@@ -515,6 +515,8 @@ textarea {
 
 .icon-check{
     background-size: contain;
+    margin: 0px;
+    padding: 0px;
   
 }
 
