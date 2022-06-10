@@ -431,7 +431,6 @@ textarea {
 
 .lable-chack {
     display: inline-flex;
-   
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -464,12 +463,19 @@ textarea {
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
+    color: #2196F3;
     
 }
 .icon-check{
+   
+    background-size: contain;
+}
+
+.icon-chec{
     border: 2px solid var(--main-text-color);
     border-radius: 2px;
     background-origin: padding-box;
+    background-size: contain;
 }
 
 .button-submit-main {
