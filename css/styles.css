@@ -475,9 +475,6 @@ textarea {
     transition-delay: 250ms;
 }
 
-.icon-close:focus, .icon-close:hover {
-    fill: var(--accent-color);
-}
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
@@ -488,6 +485,10 @@ textarea {
     fill: none;
     margin-left: 12px;
     margin-right: 8px;
+    padding: 0;
+    border: 2px solid var(--main-text-color);
+    border-radius: 2px;
+    background-origin: padding-box;
 
     transition-property:  fill;
     transition-duration: 250ms;
@@ -497,10 +498,7 @@ textarea {
 
 .icon-check{
     background-size: contain;
-    border: 2px solid var(--main-text-color);
-    border-radius: 2px;
-    background-origin: padding-box;
-    z-index: 3;
+  
 }
 
 .button-submit-main {
