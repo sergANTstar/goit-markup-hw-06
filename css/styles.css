@@ -447,19 +447,19 @@ textarea {
     appearance: none;
 }*/
 
-.checkbox {
+/*.checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}
+}*/
 
-.checkbox:checked + .icon-checked {
+.checkbox:checked + .icon-check {
     fill: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .icon-checkbox {
     display: inline-block;
-    fill: var(--accent-color);
     width: 15px;
     height: 15px;
     margin-left: 12px;
@@ -468,7 +468,7 @@ textarea {
 
 .icon-check{
    background-size: contain;
-   fill: none;
+   
 }
 
 .icon-chec{
