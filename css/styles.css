@@ -434,7 +434,7 @@ textarea {
     transition-delay: 250ms;
 }
 
-.lable-chack {
+.label-chack {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -455,7 +455,6 @@ textarea {
 
 .checkbox:checked + .icon-checked {
     fill: var(--accent-color);
-    color: var(--accent-color);
 }
 
 .icon-checkbox {
