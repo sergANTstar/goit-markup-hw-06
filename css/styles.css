@@ -359,10 +359,9 @@ textarea {
     
 }
 
-.form-field:hover input ~ span,
-.form-field:focus input ~ span {
+.form-field:hover input ~ a,
+.form-field:focus input ~ a {
     fill: var(--accent-color);
-    
     
 }
 
@@ -415,6 +414,11 @@ textarea {
 .icon-checkbox {
     display: inline-block;
     fill: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--main-text-color);
+    border-radius: 2px;
+    background-origin: padding-box;
     margin-left: 12px;
     margin-right: 8px;
 }
@@ -435,6 +439,9 @@ textarea {
 .lable-chack {
     display: flex;
     align-items: center;
+    justify-content: center;
+    transform: translateY(50%);
+    cursor: pointer;
     
 }
 
@@ -455,14 +462,6 @@ textarea {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 250ms;
-}
-
-.icon-checkbox {
-    width: 15px;
-    height: 15px;
-    border: 2px solid var(--main-text-color);
-    border-radius: 2px;
-    background-origin: padding-box;
 }
 
 .checkbox:checked + .icon-checkbox {
