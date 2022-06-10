@@ -356,14 +356,13 @@ textarea {
 .form-field:focus:not(:last-child) input,
 .form-field:focus textarea {
     outline: 1px solid var(--accent-color);
-    fill: var(--accent-color);
-    color: var(--accent-color);
+    
+    
 }
 
 .form-field:hover input ~ a,
 .form-field:focus input ~ a {
     fill: var(--accent-color);
-    
 }
 
 .form-field textarea {
@@ -420,6 +419,12 @@ textarea {
     border-radius: 1px;
     color: var(--main-text-color);
 }
+
+
+.input-taxt {
+    color: var(--main-text-color);
+}
+
 
 .lable {
     display: flex;
