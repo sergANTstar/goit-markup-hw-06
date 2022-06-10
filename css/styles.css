@@ -411,10 +411,11 @@ textarea {
 
 .icon-checkbox {
     display: inline-block;
-    width: 16px;
+    width:16px;
     height: 15px;
     fill: none;
-    outline: 1px;
+    border: 1px;
+    border-color: var(--main-text-color);
     border-radius: 1px;
     color: var(--main-text-color);
 }
