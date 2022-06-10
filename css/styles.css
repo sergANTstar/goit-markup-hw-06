@@ -459,7 +459,7 @@ textarea {
 
 .icon-checkbox {
     display: inline-block;
-    fill: none;
+    fill: var(--accent-color);
     width: 15px;
     height: 15px;
     margin-left: 12px;
@@ -468,7 +468,7 @@ textarea {
 
 .icon-check{
    background-size: contain;
-   fill: var(--accent-color);
+   fill: none;
 }
 
 .icon-chec{
