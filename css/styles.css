@@ -430,8 +430,8 @@ textarea {
 }
 
 .lable-chack {
-    display: flex;
-    flex-wrap:wrap ;
+    display: inline-flex;
+   
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -459,6 +459,8 @@ textarea {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 250ms;
 }
+
+
 
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
