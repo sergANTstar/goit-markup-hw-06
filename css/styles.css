@@ -390,7 +390,7 @@ textarea {
 }
 
 .form-headline {
-   color: var(--main-text-color);
+    color: var(--main-text-color);
     font-weight: 700;
     font-size:20px ;
     letter-spacing: 0.03em;
@@ -413,13 +413,7 @@ textarea {
 
 .icon-checkbox {
     display: inline-block;
-    width:16px;
-    height: 15px;
     fill: none;
-    border: 1px;
-    border-color: var(--main-text-color);
-    border-radius: 1px;
-    color: var(--main-text-color);
     margin-left: 12px;
     margin-right: 8px;
 }
@@ -463,13 +457,7 @@ textarea {
 }
 
 
-.icon-checkbox {
-    width: 15px;
-    height: 15px;
-    border: 2px solid var(--main-text-color);
-    border-radius: 2px;
-    background-origin: padding-box;
-}
+
 
 .checkbox:checked + .icon-checkbox {
     -webkit-appearance: none;
