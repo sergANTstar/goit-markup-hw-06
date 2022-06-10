@@ -453,13 +453,21 @@ textarea {
     appearance: none;
 }*/
 
+.icon-close {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    fill: var(--main-text-color);
+}
+
 .checkbox:checked + .icon-checkbox {
     fill: var(--accent-color);
-    color: var(--accent-color);
+    
 }
 
 .icon-checkbox {
-   fill: none;
+    fill: none;
     margin-left: 12px;
     margin-right: 8px;
 }
