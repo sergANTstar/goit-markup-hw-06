@@ -359,9 +359,10 @@ textarea {
     
 }
 
-.form-field:hover input ~ a,
-.form-field:focus input ~ a {
+.form-field:hover input ~ span,
+.form-field:focus input ~ span {
     fill: var(--accent-color);
+    color: var(--accent-color);
     
 }
 
@@ -456,8 +457,13 @@ textarea {
     transition-delay: 250ms;
 }
 
-
-
+.icon-checkbox {
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--main-text-color);
+    border-radius: 2px;
+    background-origin: padding-box;
+}
 
 .checkbox:checked + .icon-checkbox {
     -webkit-appearance: none;
