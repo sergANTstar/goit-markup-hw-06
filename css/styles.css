@@ -801,7 +801,7 @@ address {font-style: normal;}
 }
 
 .footer-maine-li:nth-child(2) {
-    margin-right: 70px;
+    margin-right: 93px;
     margin-top: 72px;
 }
 
@@ -833,7 +833,6 @@ address {font-style: normal;}
 }
 
 .mailing-footer {
-    margin-right: 93px;
     margin-top: 72px;
 }
 
@@ -859,9 +858,16 @@ address {font-style: normal;}
     fill: var(--backround-color);
 }
 
-.mailing-butto a {
+.mailing-text {
+    font-weight: 700;
+    font-size:16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    fill: var(--backround-color);
     margin-right: 10px;
+
 }
+
 
 .container-portfolio{
    padding-bottom: 94px;
