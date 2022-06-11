@@ -500,7 +500,8 @@ textarea {
     margin-left: 12px;
     margin-right: 8px;
     outline: 2px solid var(--main-text-color);
-    border-radius: 1px;
+    outline-offset: -2px;
+    border-radius: 2px;
     background-origin: padding-box;
     background-size: contain;
 
