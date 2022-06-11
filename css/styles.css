@@ -801,7 +801,7 @@ address {font-style: normal;}
 }
 
 .footer-maine-li:nth-child(2) {
-    margin-right: 93px;
+    margin-right: 70px;
     margin-top: 72px;
 }
 
@@ -825,6 +825,42 @@ address {font-style: normal;}
     font-weight: 700;
     text-transform: uppercase;
     
+}
+
+.mailing-block {
+    display: flex;
+    margin-top: 20px;
+}
+
+.mailing-footer {
+    margin-right: 93px;
+    margin-top: 72px;
+}
+
+
+
+.mailing-button {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    border: none;
+    margin-left: 12px;
+    color: var(--backround-color);
+
+
+    font-weight: 700;
+    font-size:16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    fill: var(--backround-color);
+}
+
+.mailing-butto a {
+    margin-right: 10px;
 }
 
 .container-portfolio{
