@@ -836,7 +836,15 @@ address {font-style: normal;}
     margin-top: 72px;
 }
 
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
 
+.mailing-footer input:focus {
+    outline: 0;
+   
+}
 
 .mailing-button {
     display: flex;
@@ -882,6 +890,7 @@ address {font-style: normal;}
     color: rgba(255, 255, 255, 0.6);
  
 }
+
 
 .mailing-block + input[type="email"] {
     -webkit-appearance: none;
