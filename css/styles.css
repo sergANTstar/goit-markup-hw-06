@@ -857,6 +857,7 @@ address {font-style: normal;}
     border: none;
     margin-left: 12px;
     color: var(--backround-color);
+    cursor: pointer;
 
 
     font-weight: 700;
