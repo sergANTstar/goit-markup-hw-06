@@ -442,11 +442,11 @@ textarea {
     cursor: pointer;
 }
 
-/*.consent-stail input[type="checkbox"] {
+.consent-stail input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}*/
+}
 
 .checkbox {
     -webkit-appearance: none;
@@ -867,6 +867,28 @@ address {font-style: normal;}
     margin-right: 10px;
 
 }
+
+.mailing-input {
+    width: 358px;
+    height: 50px;
+    color:  var(--backround-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 4, 4, 0.15);
+    background-color: rgba(47, 48, 58, 1);
+    padding-left: 16px;
+}
+.mailing-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+ 
+}
+
+.mailing-block + input[type="email"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 
 
 .container-portfolio{
