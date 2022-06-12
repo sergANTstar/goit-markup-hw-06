@@ -121,8 +121,7 @@ body{
 .site-nav-link-a::after {
     content: '';
 
-   
-    margin-top: 32px;
+    margin-top: 25px;
 
     display: block;
     width: 100%;
